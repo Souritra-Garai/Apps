@@ -1,0 +1,47 @@
+# Generated/local installation output
+/bin/
+/include/
+/lib/
+/lib64/
+/share/
+/sbin/
+/
+
+# Build and package-manager output
+/build/
+/cmake-build-*/
+/.cache/
+/.deps/
+*.o
+*.a
+*.so
+*.so.*
+*.la
+*.lo
+*.dylib
+*.dll
+
+# Logs, temporary files, and archives
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Shell history and local state
+.bash_history
