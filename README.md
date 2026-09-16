@@ -24,7 +24,7 @@ Keep the repository in a user-local directory such as:
 $HOME/path/to/Apps
 ```
 
-`$HOME` is the standard Linux environment variable for your home directory. `$USER_HOME` is not normally defined by default.
+`$HOME` is the standard Linux environment variable for your home directory.
 
 ## Usage
 
@@ -74,12 +74,6 @@ deactivate_apps
 
 > `setup_env.sh` must be **sourced**, not executed, so that its environment changes affect the current shell.
 
-## Requirements
-
-- Linux or another Unix-like environment with Bash
-- A compiler and build tools appropriate for the software being installed
-- Sufficient disk space in the checkout for locally installed dependencies
-
 ## Repository layout
 
 ```text
@@ -92,7 +86,3 @@ deactivate_apps
 ```
 
 The installation directories are intentionally ignored because they contain generated and machine-specific files. Keep source code and build recipes in separate repositories or directories.
-
-## License
-
-No license has been specified yet.
